@@ -14,7 +14,7 @@ header {
 
 .header-left {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   float: left;
   width: 2.0625rem;
   height: 0.84375rem;
@@ -57,7 +57,7 @@ main {
 
 .main-a input {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   width: 7.59375rem;
   height: 1.25rem;
   vertical-align: middle;
@@ -68,7 +68,7 @@ main {
 
 .main-a button {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   width: 1.25rem;
   height: 1.25rem;
   vertical-align: middle;
@@ -88,7 +88,7 @@ main {
   margin-top: 0.53125rem;
   margin-bottom: 1.1rem;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .border-a ul {
@@ -97,24 +97,24 @@ main {
   overflow-x: scroll;
   margin: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .border-a ul li {
   list-style: none;
   display: inline-block;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .border-a ul li a {
   -ms-flex-align: center;
   -webkit-box-align: center;
-  align-items: center;
+          align-items: center;
   border-radius: 0.75rem;
   margin-bottom: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -128,7 +128,7 @@ main {
   justify-content: center;
   width: 5.625rem;
   width: 2.5rem;
-  padding: 0.75rem 1.40625rem;
+  padding: 0.6875rem 1.40625rem;
   border: 1px solid #121921;
   border-radius: 0.75rem;
   box-sizing: border-box;
@@ -139,7 +139,7 @@ main {
   width: 10rem;
   height: 4.84375rem;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
 }
 
@@ -150,21 +150,150 @@ main {
 .lk-z h2 {
   color: #ffffff;
   font-size: 0.59375rem;
-  padding: 0.53125rem lk-tp;
+  padding: 0.46875rem 0.625rem;
 }
 
 .lk-z span {
   color: #ffffff;
   font-size: 0.40625rem;
+  padding: 0.46875rem 0.625rem;
 }
 
-.lk-tp ul {
+.lk {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.lk ul {
   overflow-x: auto;
-  padding-bottom: 2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 0 0;
+  padding-left: 0.53125rem;
 }
 
-.lk-tp ul li {
-  height: 6.125rem;
+.lk ul li {
+  white-space: nowrap;
+  width: 3.90625rem;
+  height: 5.46875rem;
+  float: left;
+  margin-right: 8px;
 }
 
+.lk ul li img {
+  width: 3.84375rem;
+  height: 3.84375rem;
+}
+
+.ml {
+  padding-left: 0.40625rem;
+  margin-top: 4.0625rem;
+  background-color: #0e4a6c;
+  width: 10;
+  height: 4.6875rem;
+  margin-bottom: 1.4375rem;
+}
+
+.ml .ml-aa {
+  font-size: 0.625rem;
+  width: 8.21875rem;
+  height: 1.875rem;
+}
+
+.ml .ml-aa h2 {
+  color: #9ef4a1;
+}
+
+.ml .ml-bb {
+  font-size: 0.4375rem;
+  margin-top: 0.125rem;
+}
+
+.ml .ml-bb span {
+  color: #9ef4a1;
+}
+
+.ml .ml-cc {
+  font-size: 0.46875rem;
+  margin-top: 0.71875rem;
+}
+
+.ml .ml-cc a {
+  color: #9ef4a1;
+}
+
+.score {
+  padding-left: 0.53125rem;
+  padding-right: 0.53125rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score .score-aa {
+  height: 2.09375rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score .score-aa h2 {
+  font-size: 100%;
+  font-weight: 500;
+  font-family: "Market Sans", Arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score .score-bb {
+  width: 100%;
+  height: 9.84375rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score .score-bb .score-cc {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score .score-bb .score-cc img {
+  height: 2.5rem;
+  width: 2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score .score-bb ul {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 1.5625rem;
+}
+
+.score .score-bb ul li {
+  width: 2.8125rem;
+  height: 4.90625rem;
+  padding-left: 0.28125rem;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: text-top;
+  margin-top: 0.40625rem;
+}
+
+.score .score-bb ul li h3 {
+  font-size: 0.46875rem;
+  color: #111820;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+.hk {
+  height: 5.21875rem;
+  width: 9.9375rem;
+  background-color: #00364f;
+  margin-top: 1.375rem;
+}
 /*# sourceMappingURL=index.css.map */

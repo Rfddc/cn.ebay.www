@@ -117,7 +117,7 @@ main {
                 justify-content: center;
                 width: 180rem / $basefontsize;
                 width: 80rem / $basefontsize;
-                padding: 24rem / $basefontsize 45rem / $basefontsize;
+                padding: 22rem / $basefontsize 45rem / $basefontsize;
                 border: 1px solid #121921;
                 border-radius: 24rem / $basefontsize;
                 box-sizing: border-box;
@@ -140,28 +140,150 @@ main {
     h2 {
         color: #ffffff;
         font-size: 19rem /$basefontsize;
-        padding: (17rem / $basefontsize) (20rem / $basefontsizes);
+        padding: 15rem / $basefontsize 20rem / $basefontsize;
     }
 
     span {
         color: #ffffff;
         font-size: 13rem / $basefontsize;
+        padding: 15rem / $basefontsize 20rem / $basefontsize;
+
     }
 }
 
-.lk-tp {
+.lk {
+    box-sizing: border-box;
+
     ul {
         overflow-x: auto;
-        padding-bottom: 80rem/$basefontsize;
+        box-sizing: border-box;
+        // height: 236rem / $basefontsize;
+        width: 100%;
+        display: flex;
+        padding: 0 0 0 0;
+        padding-left: 17rem/$basefontsize;
+
 
         li {
-            height: 196rem/$basefontsize;
+            white-space: nowrap;
+            width: 125rem/$basefontsize;
+            height: 175rem/$basefontsize;
+            float: left;
+
+            margin-right: 8px;
 
             img {
-                width: 70%;
-                height: 70%;
-
+                width: 123rem/$basefontsize;
+                height: 123rem/$basefontsize;
             }
         }
     }
+}
+
+.ml {
+    padding-left: 13rem/$basefontsize;
+    margin-top: 130rem/$basefontsize;
+    background-color: #0e4a6c;
+    width: 320/$basefontsize;
+    height: 150rem/$basefontsize;
+    margin-bottom: 46rem/$basefontsize;
+
+    .ml-aa {
+        font-size: 20rem/$basefontsize;
+        width: 263rem/$basefontsize;
+        height: 60rem/$basefontsize;
+
+        h2 {
+            color: #9ef4a1;
+        }
+    }
+
+    .ml-bb {
+        font-size: 14rem/$basefontsize;
+        margin-top: 4rem/$basefontsize;
+
+        span {
+            color: #9ef4a1
+        }
+    }
+
+    .ml-cc {
+        font-size: 15rem/$basefontsize;
+        margin-top: 23rem/$basefontsize;
+
+        a {
+            color: #9ef4a1
+        }
+    }
+}
+
+.score {
+    padding-left: 17rem/$basefontsize;
+    padding-right: 17rem/$basefontsize;
+    box-sizing: border-box;
+
+    .score-aa {
+        height: 67rem/$basefontsize;
+        box-sizing: border-box;
+
+        h2 {
+            font-size: 100%;
+            font-weight: 500;
+            font-family: "Market Sans", Arial, sans-serif;
+
+            box-sizing: border-box;
+        }
+
+
+    }
+
+    .score-bb {
+        width: 100%;
+        height: 315rem/$basefontsize;
+        box-sizing: border-box;
+
+        .score-cc {
+            box-sizing: border-box;
+
+
+            img {
+                height: 80rem/$basefontsize;
+                width: 80rem/$basefontsize;
+                box-sizing: border-box;
+
+            }
+        }
+
+        ul {
+            box-sizing: border-box;
+            margin-bottom: 50rem/$basefontsize;
+
+            li {
+                width: 90rem/$basefontsize;
+                height: 157rem/$basefontsize;
+                padding-left: 9rem/$basefontsize;
+                display: inline-block;
+                box-sizing: border-box;
+                vertical-align: text-top;
+                margin-top: 13rem/$basefontsize;
+
+                h3 {
+                    font-size: 15rem/$basefontsize;
+                    color: #111820;
+                    // padding-top: 12rem/$basefontsize;
+                    margin: 16rem/$basefontsize 0;
+                    font-weight: 600;
+                    // vertical-align: text-top;
+                }
+            }
+        }
+    }
+}
+
+.hk {
+    height: 167rem/$basefontsize;
+    width: 318rem/$basefontsize;
+    background-color: #00364f;
+    margin-top: 44rem/$basefontsize;
+    hk
 }
