@@ -134,6 +134,7 @@ main {
     margin: 0;
 }
 
+
 .lk-z {
     height: 91rem / $basefontsize;
 
@@ -169,7 +170,6 @@ main {
             width: 125rem/$basefontsize;
             height: 175rem/$basefontsize;
             float: left;
-
             margin-right: 8px;
 
             img {
@@ -230,7 +230,6 @@ main {
             font-size: 100%;
             font-weight: 500;
             font-family: "Market Sans", Arial, sans-serif;
-
             box-sizing: border-box;
         }
 
@@ -250,7 +249,6 @@ main {
                 height: 80rem/$basefontsize;
                 width: 80rem/$basefontsize;
                 box-sizing: border-box;
-
             }
         }
 
@@ -281,9 +279,304 @@ main {
 }
 
 .hk {
-    height: 167rem/$basefontsize;
+    box-sizing: border-box;
+    height: 5.0rem;
     width: 318rem/$basefontsize;
-    background-color: #00364f;
+    background-color: #b03005;
     margin-top: 44rem/$basefontsize;
-    hk
+    padding-top: 17rem/$basefontsize;
+    padding-left: 14rem/$basefontsize;
+
+    .hk-aa {
+        width: 260rem/$basefontsize;
+
+
+        span {
+            color: #ffffff;
+            font-size: 18rem/$basefontsize;
+            font-weight: 600;
+        }
+    }
+
+    .hk-bb {
+        margin-top: 4rem/$basefontsize;
+
+        span {
+
+            font-size: 13rem/$basefontsize;
+            color: #ffffff;
+        }
+    }
+
+    .hk-cc {
+        margin-top: 16rem/$basefontsize;
+
+        a {
+            color: #ffffff;
+        }
+    }
+}
+
+.xz {
+    margin-bottom: 46rem/$basefontsize;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.Tranding {
+    .Tranding-aa {
+        padding: 0 17rem/$basefontsize;
+
+        span {
+            font-size: 18rem/$basefontsize;
+            font-weight: bold;
+            color: #111820;
+        }
+    }
+
+    .Sb {
+        ul {
+            padding-left: 0;
+            flex-direction: column;
+            list-style: none;
+
+            li {
+                width: 293rem/$basefontsize;
+                padding-right: 0;
+                display: flex;
+                flex-direction: row-reverse;
+                border-radius: 4px;
+
+                .Sb-ff {
+                    width: 30rem/$basefontsize;
+                    float: left;
+                    padding-right: 16px;
+                    height: 99rem/$basefontsize;
+
+
+
+
+
+                    .Sb-aa {
+                        float: left;
+                        width: 25%;
+                        line-height: .8;
+                        color: #555;
+                        font-weight: 700;
+                        flex-grow: 0;
+                        flex-shrink: 0;
+                        font-size: 3rem;
+                        align-self: center;
+                        display: block;
+                    }
+
+                    .Sb-ee {
+                        float: left;
+                        width: 106rem/$basefontsize;
+                        height: 78rem/$basefontsize;
+                        align-items: flex-start;
+                        flex-direction: column;
+
+                        .Sb-bb {
+
+                            float: left;
+                            font-size: 0.0625rem;
+                            color: #333;
+                            font-weight: 700;
+                        }
+
+                        .Sb-cc {
+                            float: left;
+                            height: 18rem/$basefontsize;
+                        }
+                    }
+                }
+
+
+                .Sb-dd {
+                    float: left;
+                    margin: 0;
+                    padding: 0;
+                    height: 25%;
+                    width: 25%;
+
+                    img {
+                        background: #f0eeec;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.HH {
+    width: 318rem/$basefontsize;
+    height: 266rem/$basefontsize;
+
+    .hh {
+        box-sizing: border-box;
+        width: 320rem / $basefontsize;
+        height: 155rem / $basefontsize;
+        box-sizing: border-box;
+        margin: 0;
+
+        .hh-z {
+            height: 91rem / $basefontsize;
+
+            h2 {
+                color: #111820;
+                font-size: 19rem /$basefontsize;
+                padding: 15rem / $basefontsize 20rem / $basefontsize;
+            }
+
+            span {
+                color: #111820;
+                font-size: 13rem / $basefontsize;
+                padding: 15rem / $basefontsize 20rem / $basefontsize;
+
+            }
+        }
+
+        ul {
+            overflow-x: auto;
+            box-sizing: border-box;
+            // height: 236rem / $basefontsize;
+            width: 100%;
+            display: flex;
+            padding: 0 0 0 0;
+            padding-left: 17rem/$basefontsize;
+
+
+            li {
+                white-space: nowrap;
+                width: 125rem/$basefontsize;
+                height: 175rem/$basefontsize;
+                float: left;
+                margin-right: 8px;
+
+                img {
+                    width: 123rem/$basefontsize;
+                    height: 123rem/$basefontsize;
+                }
+            }
+        }
+    }
+}
+
+
+.AA {
+    width: 318rem/$basefontsize;
+    height: 266rem/$basefontsize;
+
+    .aa {
+        background-color: #0e4a6c;
+        box-sizing: border-box;
+        width: 320rem / $basefontsize;
+        height: 155rem / $basefontsize;
+        box-sizing: border-box;
+        margin: 0;
+
+        .aa-z {
+            height: 91rem / $basefontsize;
+
+            h2 {
+                color: #9ef4a6;
+                font-size: 19rem /$basefontsize;
+                padding: 15rem / $basefontsize 20rem / $basefontsize;
+            }
+
+            span {
+                color: #9ef4a6;
+                font-size: 13rem / $basefontsize;
+                padding: 15rem / $basefontsize 20rem / $basefontsize;
+
+            }
+        }
+
+        ul {
+            overflow-x: auto;
+            box-sizing: border-box;
+            // height: 236rem / $basefontsize;
+            width: 100%;
+            display: flex;
+            padding: 0 0 0 0;
+            padding-left: 17rem/$basefontsize;
+
+
+            li {
+                white-space: nowrap;
+                width: 125rem/$basefontsize;
+                height: 175rem/$basefontsize;
+                float: left;
+                margin-right: 8px;
+
+                img {
+                    width: 123rem/$basefontsize;
+                    height: 123rem/$basefontsize;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.AA {
+    width: 318rem/$basefontsize;
+    height: 266rem/$basefontsize;
+
+    .aa {
+        background-color: #0e4a6c;
+        box-sizing: border-box;
+        width: 320rem / $basefontsize;
+        height: 155rem / $basefontsize;
+        box-sizing: border-box;
+        margin: 0;
+
+        .aa-z {
+            height: 91rem / $basefontsize;
+
+            h2 {
+                color: #9ef4a6;
+                font-size: 19rem /$basefontsize;
+                padding: 15rem / $basefontsize 20rem / $basefontsize;
+            }
+
+            span {
+                color: #9ef4a6;
+                font-size: 13rem / $basefontsize;
+                padding: 15rem / $basefontsize 20rem / $basefontsize;
+
+            }
+        }
+
+        ul {
+            overflow-x: auto;
+            box-sizing: border-box;
+            // height: 236rem / $basefontsize;
+            width: 100%;
+            display: flex;
+            padding: 0 0 0 0;
+            padding-left: 17rem/$basefontsize;
+
+
+            li {
+                white-space: nowrap;
+                width: 125rem/$basefontsize;
+                height: 175rem/$basefontsize;
+                float: left;
+                margin-right: 8px;
+
+                img {
+                    width: 123rem/$basefontsize;
+                    height: 123rem/$basefontsize;
+                }
+            }
+        }
+    }
 }
