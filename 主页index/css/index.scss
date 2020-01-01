@@ -1,5 +1,4 @@
-$basefontsize:32;
-
+$basefontsize: 32;
 
 body,
 html {
@@ -7,14 +6,12 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-
 }
 
 header {
     width: 100%;
     height: 55rem / $basefontsize;
     line-height: 55rem / $basefontsize;
-
 }
 
 .header-left {
@@ -22,8 +19,8 @@ header {
     float: left;
     width: 66rem / $basefontsize;
     height: 27rem / $basefontsize;
-    margin-left: 16rem/$basefontsize;
-    margin-top: 10rem/$basefontsize;
+    margin-left: 16rem / $basefontsize;
+    margin-top: 10rem / $basefontsize;
 
     img {
         width: 100%;
@@ -33,7 +30,7 @@ header {
 
 .header-right {
     float: right;
-    width: 153rem/$basefontsize;
+    width: 153rem / $basefontsize;
     height: 1rem;
 
     a {
@@ -41,43 +38,39 @@ header {
     }
 
     span {
-        margin: 0 15rem/$basefontsize;
+        margin: 0 15rem / $basefontsize;
         font-weight: bold;
-        font-size: 18rem/$basefontsize;
+        font-size: 18rem / $basefontsize;
     }
-
 }
 
-
 main {
-    margin: 0 16rem/$basefontsize;
-
+    margin: 0 16rem / $basefontsize;
 }
 
 .main-a {
-    margin: 8rem/$basefontsize 2rem/$basefontsize;
-    width: 289rem/$basefontsize;
-    height: 40rem/$basefontsize;
+    margin: 8rem / $basefontsize 2rem / $basefontsize;
+    width: 289rem / $basefontsize;
+    height: 40rem / $basefontsize;
     border: 1px solid #a2a2a2;
     border-right: 0;
 
     input {
         box-sizing: border-box;
-        width: 243rem/$basefontsize;
-        height: 40rem/$basefontsize;
+        width: 243rem / $basefontsize;
+        height: 40rem / $basefontsize;
         vertical-align: middle;
         border: none;
-        padding-left: 18rem /$basefontsize;
+        padding-left: 18rem / $basefontsize;
         font-weight: 400;
     }
 
     button {
         box-sizing: border-box;
-        width: 40rem/$basefontsize;
-        height: 40rem/$basefontsize;
+        width: 40rem / $basefontsize;
+        height: 40rem / $basefontsize;
         vertical-align: middle;
         border: none;
-
         background-color: #006efc;
 
         span {
@@ -87,42 +80,87 @@ main {
 }
 
 .border-a {
-    height: 48rem/$basefontsize;
+    height: 1.5rem;
     overflow: hidden;
-    margin-left: -16rem/$basefontsize;
-    margin-right: -16rem/$basefontsize;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    margin-top: 0.53125rem;
+    margin-bottom: 1.1rem;
+    box-sizing: border-box;
 
     ul {
-        padding: 0 0 16rem/$basefontsize 16rem/$basefontsize;
+        padding: 0 0 16rem / $basefontsize 16rem / $basefontsize;
         white-space: nowrap;
         overflow-x: scroll;
         margin: 0;
+        box-sizing: border-box;
 
         li {
             list-style: none;
             display: inline-block;
+            box-sizing: border-box;
 
             a {
-
                 -ms-flex-align: center;
                 align-items: center;
-                border-radius: 24rem/$basefontsize;
-                -webkit-box-sizing: border-box;
+                border-radius: 24rem / $basefontsize;
+                margin-bottom: 0;
                 box-sizing: border-box;
                 display: inline-flex;
                 -webkit-box-orient: vertical;
                 -webkit-box-direction: normal;
                 -ms-flex-direction: column;
                 flex-direction: column;
-                height: 48px;
+                height: 48rem / $basefontsize;
                 -webkit-box-pack: center;
                 -ms-flex-pack: center;
                 justify-content: center;
-                width: 180rem/$basefontsize;
-                width: 80rem/$basefontsize;
-                padding: 24rem/$basefontsize 45rem/$basefontsize;
+                width: 180rem / $basefontsize;
+                width: 80rem / $basefontsize;
+                padding: 24rem / $basefontsize 45rem / $basefontsize;
                 border: 1px solid #121921;
-                border-radius: 24rem/$basefontsize;
+                border-radius: 24rem / $basefontsize;
+                box-sizing: border-box;
+            }
+        }
+    }
+}
+
+.lk {
+    background-color: #3665f3;
+    width: 320rem / $basefontsize;
+    height: 155rem / $basefontsize;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.lk-z {
+    height: 91rem / $basefontsize;
+
+    h2 {
+        color: #ffffff;
+        font-size: 19rem /$basefontsize;
+        padding: (17rem / $basefontsize) (20rem / $basefontsizes);
+    }
+
+    span {
+        color: #ffffff;
+        font-size: 13rem / $basefontsize;
+    }
+}
+
+.lk-tp {
+    ul {
+        overflow-x: auto;
+        padding-bottom: 80rem/$basefontsize;
+
+        li {
+            height: 196rem/$basefontsize;
+
+            img {
+                width: 70%;
+                height: 70%;
+
             }
         }
     }
