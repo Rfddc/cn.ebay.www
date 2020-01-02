@@ -19,7 +19,8 @@ header {
 }
 
 .header-left {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   float: left;
   width: 2.0625rem;
   height: 0.84375rem;
@@ -47,3 +48,201 @@ header {
   font-weight: bold;
   font-size: 0.5625rem;
 }
+
+.Ro {
+  height: 3.84375rem;
+  background-image: url("../image/s-l600.webp");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.blue {
+  text-align: center;
+  background-color: #3665f3;
+  height: 3.28125rem;
+  color: #ffffff;
+}
+
+.blue h1 {
+  font-size: 0.6375rem;
+  font-weight: 600;
+  padding: 0.4375rem 0;
+}
+
+.blue p {
+  font-size: 0.275rem;
+}
+
+main {
+  height: 110rem;
+}
+
+.Of {
+  height: 2.575rem;
+  padding: 0.5rem 0.59375rem;
+  border-bottom: 1px solid #dddddd;
+}
+
+.Of .Of-aa {
+  float: left;
+}
+
+.Of .Of-aa h2 {
+  font-size: 0.175rem;
+  color: #333333;
+}
+
+.Of .Of-bb {
+  float: right;
+}
+
+.Of .Of-bb .Of-cc {
+  display: inline-block;
+}
+
+.Of .Of-bb .Of-cc:nth-child(2) button {
+  border-left: 1px solid #0654ba;
+}
+
+.Of .Of-bb button {
+  padding: 0 0.3125rem;
+  background-color: #ffffff;
+  color: #2d6fc5;
+  border: none;
+}
+
+.Of .Di {
+  margin-top: 1.71875rem;
+}
+
+.Of .Di .D-aa {
+  float: left;
+  color: #333333;
+}
+
+.Of .Di .D-bb {
+  position: relative;
+  width: 1.21875rem;
+  height: 0.75rem;
+  background-color: #cccccc;
+  border-radius: 0.40625rem 0.40625rem;
+  float: right;
+}
+
+.Of .Di .D-bb .D-cc {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  width: 0.5625rem;
+  height: 0.5625rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.St {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.St ul {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.St ul li {
+  float: left;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  width: 4.475rem;
+  height: 8.21875rem;
+  margin-left: 0.25rem;
+  padding-left: 0.25rem;
+  padding-top: 0.21875rem;
+  border-bottom: 1px solid #dddddd;
+}
+
+.St ul li .St-aa img {
+  border: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.St ul li .St-bb h3 {
+  height: 35px;
+  width: 100%;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  white-space: normal;
+  vertical-align: middle;
+  color: #333333;
+  margin: 0 0 5px 0;
+}
+
+.St ul li .St-cc span {
+  font-size: 14px;
+  color: #333333;
+}
+
+.St ul li .St-dd span {
+  color: #a5a5a5;
+  font-size: 13px;
+}
+
+.St ul li .St-ee span {
+  color: #a5a5a5;
+  font-size: 13px;
+}
+
+.Xl {
+  width: 9.875rem;
+  height: 1.46875rem;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  text-align: center;
+  margin: 0.625rem 0;
+}
+
+.Xl a span svg {
+  display: inline-block;
+  fill: currentColor;
+  height: 1rem;
+  width: 1.2685546875rem;
+  stroke: currentColor;
+  stroke-width: 0;
+}
+
+.Xl li {
+  color: #155ebe;
+  text-align: center;
+  float: left;
+  list-style: none;
+  margin-left: 0.96875rem;
+}
+
+.Xl li:nth-child(2) a {
+  padding: 0.26875rem 0.4875rem;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  color: #868686;
+}
+
+.Xl li:nth-child(3) {
+  margin-left: 8px;
+}
+
+footer .J-aa {
+  width: 10rem;
+  height: 9.0625rem;
+  background-color: #e5e5e5;
+}
+/*# sourceMappingURL=Rolex.css.map */

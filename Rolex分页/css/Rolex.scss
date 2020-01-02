@@ -49,3 +49,193 @@ header {
     font-size: 18rem / $basefontsize;
   }
 }
+
+.Ro {
+  height: 123rem / $basefontsize;
+  background-image: url("../image/s-l600.webp");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+.blue {
+  text-align: center;
+  background-color: #3665f3;
+  height: 105rem / $basefontsize;
+
+  color: #ffffff;
+  h1 {
+    font-size: 0.6375rem;
+    font-weight: 600;
+    padding: 14rem / $basefontsize 0;
+  }
+  p {
+    font-size: 0.275rem;
+  }
+}
+
+main {
+  height: 110rem;
+}
+
+.Of {
+  height: 2.575rem;
+  padding: 0.5rem 0.59375rem;
+  border-bottom: 1px solid #dddddd;
+  .Of-aa {
+    float: left;
+    h2 {
+      font-size: 0.175rem;
+      color: #333333;
+    }
+  }
+  .Of-bb {
+    float: right;
+    .Of-cc {
+      display: inline-block;
+    }
+    .Of-cc:nth-child(2) {
+      button {
+        border-left: 1px solid #0654ba;
+      }
+    }
+    button {
+      padding: 0 10rem / $basefontsize;
+      background-color: #ffffff;
+      // opacity: 0.6;
+      color: #2d6fc5;
+      border: none;
+    }
+  }
+  .Di {
+    margin-top: 55rem / $basefontsize;
+    .D-aa {
+      float: left;
+      color: #333333;
+    }
+    .D-bb {
+      position: relative;
+      width: 39rem / $basefontsize;
+      height: 24rem / $basefontsize;
+      background-color: #cccccc;
+      border-radius: 13rem / $basefontsize 13rem / $basefontsize;
+      float: right;
+      .D-cc {
+        position: absolute;
+        top: 3px;
+        left: 4px;
+        width: 18rem / $basefontsize;
+        height: 18rem / $basefontsize;
+        border-radius: 50%;
+        background-color: #ffffff;
+      }
+    }
+  }
+}
+
+.St {
+  box-sizing: border-box;
+  ul {
+    box-sizing: border-box;
+
+    li {
+      float: left;
+      flex: none;
+      box-sizing: inherit;
+      width: 4.475rem;
+      height: 263rem / $basefontsize;
+      margin-left: 8rem / $basefontsize;
+      padding-left: 8rem / $basefontsize;
+      padding-top: 7rem / $basefontsize;
+      border-bottom: 1px solid #dddddd;
+      .St-aa {
+        img {
+          border: 0;
+          width: auto;
+          height: auto;
+          max-width: 100%;
+          max-height: 100%;
+          vertical-align: middle;
+          display: inline-block;
+        }
+      }
+      .St-bb {
+        h3 {
+          height: 35px;
+          width: 100%;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          -webkit-box-orient: vertical;
+          display: -webkit-box;
+          white-space: normal;
+          vertical-align: middle;
+          color: #333333;
+          margin: 0 0 5px 0;
+        }
+      }
+      .St-cc {
+        span {
+          font-size: 14px;
+          color: #333333;
+        }
+      }
+      .St-dd {
+        span {
+          color: #a5a5a5;
+          font-size: 13px;
+        }
+      }
+      .St-ee {
+        span {
+          color: #a5a5a5;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+.Xl {
+  width: 316rem / $basefontsize;
+  height: 47rem / $basefontsize;
+  box-sizing: inherit;
+  text-align: center;
+  margin: 20rem / $basefontsize 0;
+  a {
+    span {
+      svg {
+        display: inline-block;
+        fill: currentColor;
+        height: 1rem;
+        width: 1.2685546875rem;
+        stroke: currentColor;
+        stroke-width: 0;
+      }
+    }
+  }
+  li {
+    color: #155ebe;
+    text-align: center;
+    float: left;
+    list-style: none;
+    margin-left: 31rem / $basefontsize;
+  }
+  li:nth-child(2) {
+    a {
+      padding: 0.26875rem 0.4875rem;
+      border: 1px solid #cccccc;
+      border-radius: 3px;
+      color: #868686;
+    }
+  }
+  li:nth-child(3) {
+    margin-left: 8px;
+  }
+}
+
+footer {
+  .J-aa {
+    width: 320rem / $basefontsize;
+    height: 290rem / $basefontsize;
+    background-color: #e5e5e5;
+  }
+}

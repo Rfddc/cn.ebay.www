@@ -349,70 +349,61 @@ img {
             list-style: none;
 
             li {
-                width: 293rem/$basefontsize;
-                padding-right: 0;
+                margin-top: 18rem/$basefontsize;
+                width: 100%;
                 display: flex;
-                flex-direction: row-reverse;
-                border-radius: 4px;
 
                 .Sb-ff {
-                    width: 30rem/$basefontsize;
-                    float: left;
-                    padding-right: 16px;
-                    height: 99rem/$basefontsize;
 
+                    flex: 1;
 
-
+                    display: flex;
 
 
                     .Sb-aa {
-                        float: left;
-                        width: 25%;
+                        width: 20px;
+                        flex-shrink: 0;
+                        min-width: 30px;
                         line-height: .8;
                         color: #555;
                         font-weight: 700;
                         flex-grow: 0;
-                        flex-shrink: 0;
-                        font-size: 3rem;
+               
+                        font-size: 1.6rem;
                         align-self: center;
-                        display: block;
+                        padding-right: 25px;
+                        padding-left: 22px;
                     }
 
                     .Sb-ee {
-                        float: left;
-                        width: 106rem/$basefontsize;
-                        height: 78rem/$basefontsize;
-                        align-items: flex-start;
-                        flex-direction: column;
+                        flex: 1;
+                        padding-top: 0.5rem;
 
                         .Sb-bb {
-
-                            float: left;
-                            font-size: 0.0625rem;
-                            color: #333;
-                            font-weight: 700;
+                            font-weight: bold;
+                            font-size: 0.5rem;
                         }
 
                         .Sb-cc {
-                            float: left;
-                            height: 18rem/$basefontsize;
+                            color: #6e6e85;
+                            padding-top: 0.2rem;
                         }
                     }
                 }
 
 
                 .Sb-dd {
-                    float: left;
-                    margin: 0;
-                    padding: 0;
-                    height: 25%;
-                    width: 25%;
+                    flex: 1;
+                    padding-right: 0.5rem;
+                    padding-left: 0.4rem;
 
                     img {
-                        background: #f0eeec;
+                        height: 3rem;
+                        // background: #f0eeec;
 
                     }
                 }
+                
             }
         }
     }
