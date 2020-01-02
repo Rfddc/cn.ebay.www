@@ -234,8 +234,183 @@ main {
 
 footer {
   .J-aa {
-    width: 320rem / $basefontsize;
-    height: 290rem / $basefontsize;
+    width: 9.9rem;
+    height: 8.0625rem;
     background-color: #e5e5e5;
+    border: 1px solid #cccccc;
+    .J-bb {
+      position: relative;
+      vertical-align: text-top;
+      padding-top: 14rem / $basefontsize;
+      padding-left: 10rem / $basefontsize;
+      // padding: 0.625rem 1.2rem;
+      padding-bottom: 0.2375rem;
+      span {
+        position: absolute;
+        top: 12px;
+        left: 21px;
+        background-repeat: no-repeat;
+        background-image: url(../image/jingling.png);
+        background-size: auto 20px;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+      }
+      a {
+        width: 275rem / $basefontsize;
+        height: 40rem / $basefontsize;
+        padding-left: 45rem / $basefontsize;
+        color: #333333;
+      }
+    }
+
+    .J-cc {
+      position: relative;
+      vertical-align: text-top;
+      padding-top: 14rem / $basefontsize;
+      padding-left: 10rem / $basefontsize;
+      // padding: 0.625rem 1.2rem;
+      padding-bottom: 0.2375rem;
+      span {
+        position: absolute;
+        top: 12px;
+        left: 21px;
+        background-repeat: no-repeat;
+        background-image: url(../image/jingling.png);
+        background-size: auto 20px;
+        display: inline-block;
+        background-position: -113px 2px;
+        height: 30px;
+        width: 30px;
+      }
+      a {
+        width: 275rem / $basefontsize;
+        height: 40rem / $basefontsize;
+        padding-left: 45rem / $basefontsize;
+        color: #333333;
+      }
+    }
+    .J-dd {
+      position: relative;
+      vertical-align: text-top;
+      padding-top: 14rem / $basefontsize;
+      padding-left: 10rem / $basefontsize;
+      // padding: 0.625rem 1.2rem;
+      padding-bottom: 0.2375rem;
+      span {
+        position: absolute;
+        top: 12px;
+        left: 21px;
+        background-repeat: no-repeat;
+        background-image: url(../image/jingling.png);
+        background-size: auto 20px;
+        background-position: -790px 1px;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+      }
+      a {
+        width: 275rem / $basefontsize;
+        height: 40rem / $basefontsize;
+        padding-left: 45rem / $basefontsize;
+        color: #333333;
+      }
+    }
+    .J-ee {
+      position: relative;
+      vertical-align: text-top;
+      padding-top: 14rem / $basefontsize;
+      padding-left: 10rem / $basefontsize;
+      // padding: 0.625rem 1.2rem;
+      padding-bottom: 0.2375rem;
+      span {
+        position: absolute;
+        top: 12px;
+        left: 21px;
+        background-repeat: no-repeat;
+        background-image: url(../image/jingling.png);
+        background-size: auto 20px;
+        background-position: -1049px 1px;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+      }
+      a {
+        width: 275rem / $basefontsize;
+        height: 40rem / $basefontsize;
+        padding-left: 45rem / $basefontsize;
+        color: #333333;
+      }
+    }
+    .J-ff {
+      position: relative;
+      vertical-align: text-top;
+      padding-top: 14rem / $basefontsize;
+      padding-left: 10rem / $basefontsize;
+      // padding: 0.625rem 1.2rem;
+      padding-bottom: 0.2375rem;
+      span {
+        position: absolute;
+        top: 12px;
+        left: 21px;
+        background-repeat: no-repeat;
+        background-image: url(../image/jingling.png);
+        background-size: auto 20px;
+        display: inline-block;
+        background-position: -201px 0;
+        height: 30px;
+        width: 30px;
+      }
+      a {
+        width: 275rem / $basefontsize;
+        height: 40rem / $basefontsize;
+        padding-left: 45rem / $basefontsize;
+        color: #333333;
+      }
+    }
+    .J-gg {
+      position: relative;
+      vertical-align: text-top;
+      padding-top: 14rem / $basefontsize;
+      padding-left: 10rem / $basefontsize;
+      // padding: 0.625rem 1.2rem;
+      padding-bottom: 0.2375rem;
+      span {
+        position: absolute;
+        top: 12px;
+        left: 21px;
+        background-repeat: no-repeat;
+        background-image: url(../image/ey02.png);
+        background-size: auto 20px;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+      }
+      a {
+        width: 275rem / $basefontsize;
+        height: 40rem / $basefontsize;
+        padding-left: 45rem / $basefontsize;
+        color: #333333;
+      }
+    }
+  }
+
+  .X {
+    box-sizing: border-box;
+    height: 113rem / $basefontsize;
+    background-color: #e5e5e5;
+    text-align: center;
+    .X-aa {
+      box-sizing: border-box;
+      padding: 15rem / $basefontsize;
+      a {
+        color: #565656;
+      }
+    }
+
+    .X-bb {
+      padding: 5rem / $basefontsize;
+      color: #565656;
+    }
   }
 }

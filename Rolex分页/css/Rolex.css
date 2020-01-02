@@ -241,8 +241,198 @@ main {
 }
 
 footer .J-aa {
-  width: 10rem;
-  height: 9.0625rem;
+  width: 9.9rem;
+  height: 8.0625rem;
   background-color: #e5e5e5;
+  border: 1px solid #cccccc;
+}
+
+footer .J-aa .J-bb {
+  position: relative;
+  vertical-align: text-top;
+  padding-top: 0.4375rem;
+  padding-left: 0.3125rem;
+  padding-bottom: 0.2375rem;
+}
+
+footer .J-aa .J-bb span {
+  position: absolute;
+  top: 12px;
+  left: 21px;
+  background-repeat: no-repeat;
+  background-image: url(../image/jingling.png);
+  background-size: auto 20px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+footer .J-aa .J-bb a {
+  width: 8.59375rem;
+  height: 1.25rem;
+  padding-left: 1.40625rem;
+  color: #333333;
+}
+
+footer .J-aa .J-cc {
+  position: relative;
+  vertical-align: text-top;
+  padding-top: 0.4375rem;
+  padding-left: 0.3125rem;
+  padding-bottom: 0.2375rem;
+}
+
+footer .J-aa .J-cc span {
+  position: absolute;
+  top: 12px;
+  left: 21px;
+  background-repeat: no-repeat;
+  background-image: url(../image/jingling.png);
+  background-size: auto 20px;
+  display: inline-block;
+  background-position: -113px 2px;
+  height: 30px;
+  width: 30px;
+}
+
+footer .J-aa .J-cc a {
+  width: 8.59375rem;
+  height: 1.25rem;
+  padding-left: 1.40625rem;
+  color: #333333;
+}
+
+footer .J-aa .J-dd {
+  position: relative;
+  vertical-align: text-top;
+  padding-top: 0.4375rem;
+  padding-left: 0.3125rem;
+  padding-bottom: 0.2375rem;
+}
+
+footer .J-aa .J-dd span {
+  position: absolute;
+  top: 12px;
+  left: 21px;
+  background-repeat: no-repeat;
+  background-image: url(../image/jingling.png);
+  background-size: auto 20px;
+  background-position: -790px 1px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+footer .J-aa .J-dd a {
+  width: 8.59375rem;
+  height: 1.25rem;
+  padding-left: 1.40625rem;
+  color: #333333;
+}
+
+footer .J-aa .J-ee {
+  position: relative;
+  vertical-align: text-top;
+  padding-top: 0.4375rem;
+  padding-left: 0.3125rem;
+  padding-bottom: 0.2375rem;
+}
+
+footer .J-aa .J-ee span {
+  position: absolute;
+  top: 12px;
+  left: 21px;
+  background-repeat: no-repeat;
+  background-image: url(../image/jingling.png);
+  background-size: auto 20px;
+  background-position: -1049px 1px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+footer .J-aa .J-ee a {
+  width: 8.59375rem;
+  height: 1.25rem;
+  padding-left: 1.40625rem;
+  color: #333333;
+}
+
+footer .J-aa .J-ff {
+  position: relative;
+  vertical-align: text-top;
+  padding-top: 0.4375rem;
+  padding-left: 0.3125rem;
+  padding-bottom: 0.2375rem;
+}
+
+footer .J-aa .J-ff span {
+  position: absolute;
+  top: 12px;
+  left: 21px;
+  background-repeat: no-repeat;
+  background-image: url(../image/jingling.png);
+  background-size: auto 20px;
+  display: inline-block;
+  background-position: -201px 0;
+  height: 30px;
+  width: 30px;
+}
+
+footer .J-aa .J-ff a {
+  width: 8.59375rem;
+  height: 1.25rem;
+  padding-left: 1.40625rem;
+  color: #333333;
+}
+
+footer .J-aa .J-gg {
+  position: relative;
+  vertical-align: text-top;
+  padding-top: 0.4375rem;
+  padding-left: 0.3125rem;
+  padding-bottom: 0.2375rem;
+}
+
+footer .J-aa .J-gg span {
+  position: absolute;
+  top: 12px;
+  left: 21px;
+  background-repeat: no-repeat;
+  background-image: url(../image/ey02.png);
+  background-size: auto 20px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+footer .J-aa .J-gg a {
+  width: 8.59375rem;
+  height: 1.25rem;
+  padding-left: 1.40625rem;
+  color: #333333;
+}
+
+footer .X {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 3.53125rem;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+
+footer .X .X-aa {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0.46875rem;
+}
+
+footer .X .X-aa a {
+  color: #565656;
+}
+
+footer .X .X-bb {
+  padding: 0.15625rem;
+  color: #565656;
 }
 /*# sourceMappingURL=Rolex.css.map */
