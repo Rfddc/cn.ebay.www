@@ -1,9 +1,14 @@
+body {
+  font-family: "Market Sans", Arial, sans-serif;
+}
+
 body,
 html {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Market Sans", Arial, sans-serif;
 }
 
 header {
@@ -531,24 +536,26 @@ img {
 
 .AA .aa ul li {
   white-space: nowrap;
-  width: 3.90625rem;
-  height: 5.46875rem;
+  width: 7.8125rem;
+  height: 5.6875rem;
   float: left;
   margin-right: 8px;
 }
 
 .AA .aa ul li img {
-  width: 3.84375rem;
-  height: 3.84375rem;
+  width: 7.8125rem;
+  height: 4.6875rem;
 }
 
-.AA {
+.BB {
   width: 9.9375rem;
   height: 8.3125rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 1.375rem;
 }
 
-.AA .aa {
-  background-color: #0e4a6c;
+.BB .bb {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 10rem;
@@ -557,23 +564,23 @@ img {
   margin: 0;
 }
 
-.AA .aa .aa-z {
+.BB .bb .bb-z {
   height: 2.84375rem;
 }
 
-.AA .aa .aa-z h2 {
-  color: #9ef4a6;
+.BB .bb .bb-z h2 {
+  color: #111820;
   font-size: 0.59375rem;
   padding: 0.46875rem 0.625rem;
 }
 
-.AA .aa .aa-z span {
-  color: #9ef4a6;
+.BB .bb .bb-z span {
+  color: #111820;
   font-size: 0.40625rem;
   padding: 0.46875rem 0.625rem;
 }
 
-.AA .aa ul {
+.BB .bb ul {
   overflow-x: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -585,16 +592,160 @@ img {
   padding-left: 0.53125rem;
 }
 
-.AA .aa ul li {
+.BB .bb ul li {
   white-space: nowrap;
-  width: 3.90625rem;
-  height: 5.46875rem;
+  width: 7.8125rem;
+  height: 5.6875rem;
   float: left;
   margin-right: 8px;
 }
 
-.AA .aa ul li img {
-  width: 3.84375rem;
-  height: 3.84375rem;
+.BB .bb ul li img {
+  width: 7.8125rem;
+  height: 4.6875rem;
+}
+
+.score-ssss {
+  padding-left: 0.53125rem;
+  padding-right: 0.53125rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score-ssss .ssss-aa {
+  height: 2.09375rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score-ssss .ssss-aa h2 {
+  font-size: 100%;
+  font-weight: 500;
+  font-family: "Market Sans", Arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score-ssss .ssss-bb {
+  width: 100%;
+  height: 5.84375rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score-ssss .ssss-bb .ssss-cc {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score-ssss .ssss-bb .ssss-cc img {
+  height: 2.5rem;
+  width: 2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.score-ssss .ssss-bb ul {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 1.5625rem;
+}
+
+.score-ssss .ssss-bb ul li {
+  width: 2.8125rem;
+  height: 4.90625rem;
+  padding-left: 0.28125rem;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: text-top;
+  margin-top: 0.40625rem;
+}
+
+.score-ssss .ssss-bb ul li h3 {
+  font-size: 0.46875rem;
+  color: #111820;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+footer {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 9.96875rem;
+  height: 13.90625rem;
+  background-color: #111820;
+  padding: 0.5rem;
+}
+
+footer ul {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0.5rem;
+  padding-top: 1.375rem;
+}
+
+footer ul li {
+  padding-bottom: 0.84375rem;
+}
+
+footer ul li a {
+  color: #ffffff;
+  font-size: 0.4375rem;
+  font-weight: bold;
+}
+
+footer .hee {
+  padding: 0 0.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer .hee hr {
+  color: #7e8083;
+  background: -webkit-linear-gradient(left, rgba(199, 199, 199, 0.7) 0%, rgba(120, 120, 120, 0.7) 45%, rgba(120, 120, 120, 0.7) 55%, rgba(199, 199, 199, 0.7) 99%);
+}
+
+footer .ww {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1.0625rem 0.75rem;
+  width: 8.75rem;
+  height: 1.5625rem;
+  text-align: center;
+  padding-right: 0;
+}
+
+footer .ww a {
+  text-decoration: underline;
+  color: #c7c7c7;
+  font-size: 0.46875rem;
+}
+
+footer .ww span {
+  color: #c7c7c7;
+}
+
+.jj {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.jj span {
+  color: #c7c7c7;
+}
+
+.ppp {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.ppp span {
+  color: #c7c7c7;
+}
+
+.ppp a {
+  text-decoration: underline;
+  color: #c7c7c7;
 }
 /*# sourceMappingURL=index.css.map */

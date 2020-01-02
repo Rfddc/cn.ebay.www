@@ -1,11 +1,16 @@
 $basefontsize: 32;
 
+body {
+    font-family: "Market Sans", Arial, sans-serif;
+}
+
 body,
 html {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: "Market Sans", Arial, sans-serif;
 }
 
 header {
@@ -472,6 +477,7 @@ img {
     width: 318rem/$basefontsize;
     height: 266rem/$basefontsize;
 
+
     .aa {
         background-color: #0e4a6c;
         box-sizing: border-box;
@@ -509,14 +515,71 @@ img {
 
             li {
                 white-space: nowrap;
-                width: 125rem/$basefontsize;
-                height: 175rem/$basefontsize;
+                width: 250rem/$basefontsize;
+                height: 5.6875rem;
                 float: left;
                 margin-right: 8px;
 
                 img {
-                    width: 123rem/$basefontsize;
-                    height: 123rem/$basefontsize;
+                    width: 250rem/$basefontsize;
+                    height: 150rem/$basefontsize;
+                }
+            }
+        }
+    }
+}
+
+
+.BB {
+    width: 318rem/$basefontsize;
+    height: 266rem/$basefontsize;
+    box-sizing: border-box;
+    margin-bottom: 44rem/$basefontsize;
+
+    .bb {
+        box-sizing: border-box;
+        width: 320rem / $basefontsize;
+        height: 155rem / $basefontsize;
+        box-sizing: border-box;
+        margin: 0;
+
+        .bb-z {
+            height: 91rem / $basefontsize;
+
+            h2 {
+                color: #111820;
+                font-size: 19rem /$basefontsize;
+                padding: 15rem / $basefontsize 20rem / $basefontsize;
+            }
+
+            span {
+                color: #111820;
+                font-size: 13rem / $basefontsize;
+                padding: 15rem / $basefontsize 20rem / $basefontsize;
+
+            }
+        }
+
+        ul {
+            overflow-x: auto;
+            box-sizing: border-box;
+            // height: 236rem / $basefontsize;
+            width: 100%;
+            display: flex;
+            padding: 0 0 0 0;
+            padding-left: 17rem/$basefontsize;
+
+
+            li {
+                white-space: nowrap;
+                width: 250rem/$basefontsize;
+                height: 5.6875rem;
+                float: left;
+                margin-right: 8px;
+
+                img {
+                    width: 250rem/$basefontsize;
+                    height: 150rem/$basefontsize;
                 }
             }
         }
@@ -526,57 +589,144 @@ img {
 
 
 
-.AA {
-    width: 318rem/$basefontsize;
-    height: 266rem/$basefontsize;
+.score-ssss {
+    padding-left: 17rem/$basefontsize;
+    padding-right: 17rem/$basefontsize;
+    box-sizing: border-box;
 
-    .aa {
-        background-color: #0e4a6c;
+    .ssss-aa {
+        height: 67rem/$basefontsize;
         box-sizing: border-box;
-        width: 320rem / $basefontsize;
-        height: 155rem / $basefontsize;
+
+        h2 {
+            font-size: 100%;
+            font-weight: 500;
+            font-family: "Market Sans", Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+
+    }
+
+    .ssss-bb {
+        width: 100%;
+        height: 5.84375rem;
         box-sizing: border-box;
-        margin: 0;
 
-        .aa-z {
-            height: 91rem / $basefontsize;
+        .ssss-cc {
+            box-sizing: border-box;
 
-            h2 {
-                color: #9ef4a6;
-                font-size: 19rem /$basefontsize;
-                padding: 15rem / $basefontsize 20rem / $basefontsize;
-            }
 
-            span {
-                color: #9ef4a6;
-                font-size: 13rem / $basefontsize;
-                padding: 15rem / $basefontsize 20rem / $basefontsize;
-
+            img {
+                height: 80rem/$basefontsize;
+                width: 80rem/$basefontsize;
+                box-sizing: border-box;
             }
         }
 
         ul {
-            overflow-x: auto;
             box-sizing: border-box;
-            // height: 236rem / $basefontsize;
-            width: 100%;
-            display: flex;
-            padding: 0 0 0 0;
-            padding-left: 17rem/$basefontsize;
-
+            margin-bottom: 50rem/$basefontsize;
 
             li {
-                white-space: nowrap;
-                width: 125rem/$basefontsize;
-                height: 175rem/$basefontsize;
-                float: left;
-                margin-right: 8px;
+                width: 90rem/$basefontsize;
+                height: 157rem/$basefontsize;
+                padding-left: 9rem/$basefontsize;
+                display: inline-block;
+                box-sizing: border-box;
+                vertical-align: text-top;
+                margin-top: 13rem/$basefontsize;
 
-                img {
-                    width: 123rem/$basefontsize;
-                    height: 123rem/$basefontsize;
+                h3 {
+                    font-size: 15rem/$basefontsize;
+                    color: #111820;
+                    // padding-top: 12rem/$basefontsize;
+                    margin: 16rem/$basefontsize 0;
+                    font-weight: 600;
+                    // vertical-align: text-top;
                 }
             }
         }
+    }
+}
+
+footer {
+    box-sizing: border-box;
+    width: 319rem/$basefontsize;
+    height: 13.90625rem;
+    background-color: #111820;
+    padding: 16rem/$basefontsize;
+
+    ul {
+        box-sizing: border-box;
+        padding: 16rem/$basefontsize;
+        padding-top: 44rem/$basefontsize;
+
+        li {
+            padding-bottom: 27rem/$basefontsize;
+
+            a {
+                color: #ffffff;
+                font-size: 14rem/$basefontsize;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+
+    .hee {
+        padding: 0 16rem/$basefontsize;
+        box-sizing: border-box;
+
+        hr {
+            color: #7e8083;
+            // height: 0rem/$basefontsize;
+            background: -webkit-linear-gradient(left, rgba(199, 199, 199, 0.7) 0%, rgba(120, 120, 120, 0.7) 45%, rgba(120, 120, 120, 0.7) 55%, rgba(199, 199, 199, 0.7) 99%);
+        }
+    }
+
+    .ww {
+        box-sizing: border-box;
+        padding: 34rem/$basefontsize 24rem/$basefontsize;
+        width: 280rem/$basefontsize;
+        height: 50rem/$basefontsize;
+        text-align: center;
+        padding-right: 0;
+
+        a {
+            text-decoration: underline;
+            color: #c7c7c7;
+            font-size: 15rem/$basefontsize;
+        }
+
+        span {
+            color: #c7c7c7;
+        }
+    }
+}
+
+
+.jj {
+    text-align: center;
+    margin: 16rem/$basefontsize 0;
+
+    span {
+        color: #c7c7c7;
+    }
+}
+
+
+.ppp {
+    text-align: center;
+    margin: 16rem/$basefontsize 0;
+
+    span {
+        color: #c7c7c7;
+    }
+
+    a {
+        text-decoration: underline;
+        color: #c7c7c7;
     }
 }
