@@ -1,0 +1,186 @@
+$basefontsize: 32;
+
+body {
+    font-family: "Market Sans", Arial, sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Market Sans", Arial, sans-serif;
+}
+
+header {
+    line-height: inherit;
+    width: 100%;
+    height: 55rem / $basefontsize;
+
+}
+
+.header-left {
+    box-sizing: border-box;
+    float: left;
+    width: 2.0625rem;
+    height: 0.84375rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5125rem;
+
+    img {
+        width: 125%;
+        height: 125%;
+    }
+}
+
+.header-right {
+    float: right;
+    width: 153rem / $basefontsize;
+    height: 1rem;
+    margin-top: 30px;
+
+    a {
+
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: right;
+        color: #006efc;
+    }
+
+    span {
+        margin: 0 15rem / $basefontsize;
+        font-weight: bold;
+        font-size: 18rem / $basefontsize;
+    }
+}
+
+
+.ne {
+    margin-top: 20rem/$basefontsize;
+    width: 315rem/$basefontsize;
+    height: 125rem/$basefontsize;
+    // background-color: red;
+
+
+    h3 {
+        padding: 10rem/$basefontsize;
+        font-size: 24rem/$basefontsize;
+        font-weight: bold;
+    }
+
+    p {
+        padding: 10rem/$basefontsize;
+    }
+}
+
+.lo {
+    text-align: center;
+    margin-top: 0.4rem;
+
+    .lo-a {
+        button {
+            width: 287rem/$basefontsize;
+            height: 47rem/$basefontsize;
+            background-color: #3665f3;
+            border: none;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 20rem/$basefontsize;
+        }
+
+    }
+
+    .lo-b {
+        button {
+            margin-top: 0.4rem;
+            width: 287rem/$basefontsize;
+            height: 47rem/$basefontsize;
+            background-color: #4267b2;
+            border: none;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 20rem/$basefontsize;
+            position: relative;
+        }
+
+        button::before {
+            content: " ";
+            width: 30rem/$basefontsize;
+            height: 30rem/$basefontsize;
+            background-image: url("../image/facebook.png");
+            background-repeat: no-repeat;
+            background-size: 20rem/$basefontsize;
+            background-position: 2px 2px;
+            position: absolute;
+            top: 11px;
+            left: 10px;
+        }
+    }
+
+    .lo-c {
+        button {
+            margin-top: 0.4rem;
+            width: 287rem/$basefontsize;
+            height: 47rem/$basefontsize;
+            background-color: #ffffff;
+            border: 1px solid #888888;
+            color: #444;
+            font-weight: 500;
+            font-size: 20rem/$basefontsize;
+            position: relative;
+        }
+
+        button::before {
+            content: " ";
+            width: 30rem/$basefontsize;
+            height: 30rem/$basefontsize;
+            background-image: url("../image/google-logo.png");
+            background-repeat: no-repeat;
+            background-size: 20rem/$basefontsize;
+            background-position: 2px 2px;
+            position: absolute;
+            top: 11px;
+            left: 10px;
+
+        }
+    }
+}
+
+.checkbox-container {
+    margin-top: 29px;
+    text-align: center;
+    position: relative;
+
+    span.checkbox {
+        color: #444;
+    }
+
+    .checkbox__control[type=checkbox] {
+        font-size: 100%;
+        height: 18px;
+        margin: 0;
+        opacity: 0;
+        padding: 0;
+        position: absolute;
+        width: 18px;
+        z-index: 1;
+
+
+        .csi {
+            background-color: #3665f3;
+        }
+    }
+}
+
+.in {
+    margin-top: 0.4rem;
+    text-align: center;
+    a{
+        text-decoration: underline;
+    }
+}
