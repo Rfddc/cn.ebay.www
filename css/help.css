@@ -216,7 +216,7 @@ main .button input {
   margin-bottom: 16px;
   width: 49px;
   height: 48px;
-  margin-left: 41px;
+  margin-left: 56px;
   background-position: -210px -780px;
 }
 
@@ -227,7 +227,7 @@ main .button input {
   background: url("/image/helphub_sprite_horizontal_v15.svg") no-repeat;
   margin-bottom: 16px;
   background-position: -1153px -244px;
-  margin-left: 49px;
+  margin-left: 56px;
 }
 
 .ba ul li .ro-dd {
@@ -237,7 +237,7 @@ main .button input {
   background: url("/image/helphub_sprite_horizontal_v15.svg") no-repeat;
   margin-bottom: 16px;
   background-position: -618px -250px;
-  margin-left: 38px;
+  margin-left: 56px;
 }
 
 .ba ul li .ro-ee {
@@ -247,7 +247,7 @@ main .button input {
   background: url("/image/helphub_sprite_horizontal_v15.svg") no-repeat;
   margin-bottom: 16px;
   background-position: -905px -333px;
-  margin-left: 49px;
+  margin-left: 56px;
 }
 
 .ro-ff {
@@ -257,7 +257,11 @@ main .button input {
   background: url("/image/helphub_sprite_horizontal_v15.svg") no-repeat;
   margin-bottom: 16px;
   background-position: -1033px -251px;
-  margin-left: 47px;
+  margin-left: 56px;
+}
+
+footer {
+  margin-top: 1616px;
 }
 
 footer .j-aa {

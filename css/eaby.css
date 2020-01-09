@@ -139,7 +139,7 @@ main {
   box-sizing: border-box;
 }
 
-.lk {
+.ik {
   background-color: #3665f3;
   width: 10rem;
   height: 4.84375rem;
@@ -148,28 +148,28 @@ main {
   margin: 0;
 }
 
-.lk-z {
+.ik-z {
   height: 2.84375rem;
 }
 
-.lk-z h2 {
+.ik-z h2 {
   color: #ffffff;
   font-size: 0.59375rem;
   padding: 0.46875rem 0.625rem;
 }
 
-.lk-z span {
+.ik-z span {
   color: #ffffff;
   font-size: 0.40625rem;
   padding: 0.46875rem 0.625rem;
 }
 
-.lk {
+.ik {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.lk ul {
+.ik ul {
   overflow-x: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -181,7 +181,7 @@ main {
   padding-left: 0.53125rem;
 }
 
-.lk ul li {
+.ik ul li {
   white-space: nowrap;
   width: 3.90625rem;
   height: 5.46875rem;
@@ -189,7 +189,7 @@ main {
   margin-right: 8px;
 }
 
-.lk ul li img {
+.ik ul li img {
   width: 3.84375rem;
   height: 3.84375rem;
 }
